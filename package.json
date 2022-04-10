@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.13",
+    "sanitize-html": "^2.5.2",
+    "sequelize": "^6.18.0",
+    "sequelize-cli": "^6.4.1",
+    "trim-request-body": "^1.0.1"
+  }
+}
