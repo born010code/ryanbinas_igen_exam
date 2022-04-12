@@ -19,7 +19,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'MoneyValue',
-    tableName: 'money_values'
+    tableName: 'money_values',
+    timestamps: false
   }, { timestamps: false });
   return MoneyValue;
 };

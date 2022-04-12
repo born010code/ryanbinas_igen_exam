@@ -85,7 +85,7 @@ router.get('/', function (req, res) {
 		});
    }
    	
-    var startLocation = Sequelize.literal(`ST_GeomFromText('POINT(${longitude} ${latitude})', 4326)`);
+    var startLocation = Sequelize.literal(`ST_GeomFromText('POINT(${longitude} ${latitude})')`);
     var endLocation = Sequelize.literal(`POINT(longitude, latitude)`);
 	var radius = radiusInputInKM / 111; // This will convert the result to KM approximately.
 
